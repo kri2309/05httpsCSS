@@ -58,7 +58,7 @@ export default {
         this.tasks = response.data
       })
       .catch(error => {
-        console.log('ERRRORS' + error)
+        console.log('ERRRRRRORS' + error)
       })
   },
 
