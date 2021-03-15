@@ -51,10 +51,8 @@ export default {
     }
   },
   created () {
-    // axios.get('http://my-json-server.typicode.com/mamc003/MyJSONServer/tasks')
     TasksService.getTasks()
       .then(response => {
-        // console.log('tasks: ', response.data)
         this.tasks = response.data
       })
       .catch(error => {
